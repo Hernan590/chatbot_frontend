@@ -13,7 +13,7 @@ function enviarPregunta() {
 
   chatBody.scrollTop = chatBody.scrollHeight
 
-  fetch("http://localhost:3000/api/chat", {
+  fetch("https://api-chatbot-plob.onrender.com/api/chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
